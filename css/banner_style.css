@@ -1010,24 +1010,37 @@ body {
     margin: -6px 0;
   } 
   .banner_container .title h1 {
-    font: normal 8.2rem 'Shrikhand', Helvetica, sans-serif;
+    font: normal 6.2rem 'Shrikhand', Helvetica, sans-serif;
   }
   .banner_container .title h2 {
     font: normal 3.6rem 'Noto Sans KR';
     margin: -6px 0;
   }
   }
+  @media (max-width: 466px){
+    .banner_container .title h3{
+     font: normal 4.6rem 'Monotype Corsiva';
+     margin: -6px 0;
+   } 
+   .banner_container .title h1 {
+     font: normal 4.2rem 'Shrikhand', Helvetica, sans-serif;
+   }
+   .banner_container .title h2 {
+     font: normal 2.6rem 'Noto Sans KR';
+     margin: -6px 0;
+   }
+   }
 
 @media (max-width: 375px){
  .banner_container .title h3{
-  font: normal 6.6rem 'Monotype Corsiva';
+  font: normal 3.6rem 'Monotype Corsiva';
   margin: -6px 0;
 } 
 .banner_container .title h1 {
-  font: normal 5.2rem 'Shrikhand', Helvetica, sans-serif;
+  font: normal 4.2rem 'Shrikhand', Helvetica, sans-serif;
 }
 .banner_container .title h2 {
-  font: normal 2.6rem 'Noto Sans KR';
+  font: normal 1.6rem 'Noto Sans KR';
   margin: -6px 0;
 }
 .banner_container .title {
