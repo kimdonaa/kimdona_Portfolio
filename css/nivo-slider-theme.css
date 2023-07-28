@@ -241,6 +241,9 @@ Supports Thumbs: true
     font-size: 24px;
     line-height: 30px;
   }
+  #about .my_img_ba_p .my_img_ba {
+  display: none;
+}
 }
 
 /* -------------------------------------
