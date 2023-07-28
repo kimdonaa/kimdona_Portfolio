@@ -135,10 +135,15 @@ Supports Thumbs: true
 }
 }
 @media (max-width:1199px) {
- .well-middle .single-well .ul_01 {
-    margin-top: 105px;
+  .single-well a .sec-head {
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 80px;
+    text-transform: uppercase;
+    transition: all 0.4s ease 0s;
 }
-}
+} 
 
 /* Normal desktop :992px. */
 
@@ -165,6 +170,15 @@ Supports Thumbs: true
   }
   .well-middle .single-well .ul_01 {
     margin-top: -15px;
+}
+  .single-well a .sec-head {
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: 0px;
+  text-transform: uppercase;
+  transition: all 0.4s ease 0s;
+}
 }
 }
 
