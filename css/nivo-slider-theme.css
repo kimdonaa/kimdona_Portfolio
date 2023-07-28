@@ -176,8 +176,11 @@ Supports Thumbs: true
   text-transform: uppercase;
   transition: all 0.4s ease 0s;
 }
+  .well-middle .single-well .ul_01 .brand_link02 {
+  margin-right: 150px;
 }
 }
+
 
 @media (max-width: 767px) {
   .nivo-directionNav {
@@ -211,6 +214,12 @@ Supports Thumbs: true
   .nivo-controlNav {
     bottom: -8px;
   }
+    .well-middle .single-well .ul_01 .brand_link02 {
+    margin-right: 0px;
+  }
+  .well-middle .single-well .ul_01 .brand_link01 {
+    margin-right: 5px;
+}
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
