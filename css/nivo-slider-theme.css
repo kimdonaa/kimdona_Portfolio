@@ -179,6 +179,14 @@ Supports Thumbs: true
   .well-middle .single-well .ul_01 .brand_link02 {
   margin-right: 150px;
 }
+  #about .my_img_ba_p .my_img_ba {
+  position: absolute;
+  top: 129px;
+  left: -72px;
+}
+.my_img_ba_p .my_img_ba img {
+  width: 67%;
+}
 }
 
 
@@ -219,6 +227,9 @@ Supports Thumbs: true
   }
   .well-middle .single-well .ul_01 .brand_link01 {
     margin-right: 5px;
+}
+  #about .my_img_ba_p .my_img_ba {
+  display: none;
 }
 }
 
