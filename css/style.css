@@ -540,6 +540,14 @@ div#preloader {
   display: block;
   border-radius: 30px;
 }
+.my_img_ba_p{
+  position: relative;
+}
+.my_img_ba_p .my_img_ba{
+  position: absolute;
+  top: 193px;
+  left: -125px;
+}
 /*--------------------------------*/
 
 /* 4.Services Area
