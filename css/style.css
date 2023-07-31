@@ -35,6 +35,10 @@
 /*----------------------------------------*/
 /*  1.  Theme default CSS
 /*----------------------------------------*/
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+.notosanskr * { 
+  font-family: 'Noto Sans KR', sans-serif;
+ }
 
 html,
 body {
@@ -268,7 +272,7 @@ div#preloader {
 
 .sec-head {
   display: inline-block;
-  font-size: 17px;
+  font-size: 30px;
   font-weight: 600;
   margin-top: 126px;
   text-transform: uppercase;
@@ -535,20 +539,47 @@ div#preloader {
 .my_img .single-well a img{
   display: block;
   border-radius: 500px 500px 0 0;
+  /* width: 60%;
+  margin-left: 190px; */
 }
 #brand_img .single-well a img{
   display: block;
   border-radius: 30px;
 }
 .my_img_ba_p{
-  position: relative;
+  display: flex;
+  flex-wrap: wrap;
 }
-.my_img_ba_p .my_img_ba{
-  position: absolute;
-  top: 208px;
-  left: -111px;
+.my_img_ba_p .my_img{
+  width: 38.333333%;
+}
+.my_img_ba_p .my_text{
+  width: 61.66667%;
+}
+#about .my_img_ba_p .my_text p{
+  font-size: 16px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 300;
+}
+#about .my_img_ba_p .my_text .about_me02{
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #7258b4;
+}
+#about .my_img_ba_p .my_text .about_me03 span{
+  font-weight: 500;
+  color: #7258b4;
 }
 
+#about .sec-head {
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 193px;
+  text-transform: uppercase;
+  transition: all 0.4s ease 0s;
+}
 
 /*--------------------------------*/
 

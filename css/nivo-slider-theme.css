@@ -201,6 +201,9 @@ Supports Thumbs: true
 .my_img_ba_p .my_img_ba img {
   width: 67%;
 }
+#about .sec-head {
+  margin-top: 30px;
+}
 }
 
 @media (max-width: 767px) {
@@ -241,8 +244,11 @@ Supports Thumbs: true
   .well-middle .single-well .ul_01 .brand_link01 {
     margin-right: 5px;
 }
-#about .my_img_ba_p .my_img_ba {
-  display: none;
+#about .my_img_ba_p .my_img{
+  width: 100%;
+}
+#about .my_img_ba_p .my_text{
+  width: 100%;
 }
 }
 
