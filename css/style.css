@@ -2504,7 +2504,11 @@ span.email-notes {
   padding-right: 10px;
   font-size: 12px;
 }
-
+#about .my_img_ba_p .star01{
+  position:absolute;
+  bottom: 0;
+  right: -800px;
+}
 /* .col-md-12 .single-skill .progress-circular input {
   width: 91px;
   height: 58px;
